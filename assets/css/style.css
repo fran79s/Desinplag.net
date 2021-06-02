@@ -11389,19 +11389,6 @@ a.bd-backtotop-1:hover {
   width: 80%;
 }
 #marker-end-L3N0eWxlLmNzcw.L2NvbnRyb2xzL2JkLWxheW91dGJveDIy {}
-#marker-start-L3N0eWxlLmNzcw.L2NvbnRyb2xzL2JkLWxheW91dGJveDI0 {}
-.bd-layoutbox-24 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  width: 80%;
-  background-color: rgba(119, 119, 119, 0.14);
-}
-#marker-end-L3N0eWxlLmNzcw.L2NvbnRyb2xzL2JkLWxheW91dGJveDI0 {}
 #marker-start-L3N0eWxlLmNzcw.L2NvbnRyb2xzL2JkLWxheW91dGJveDI1 {}
 @media (max-width: 767px) {
   .bd-layoutbox-25 {
@@ -13820,16 +13807,20 @@ h2.bd-postheader-4 a {
     background-image: url(../../assets/images/1b5ea2ab8527da0d648ff940ccee4b11_fumigadorenjardin.jpg), -moz-linear-gradient(270deg, #4aabf1 0%, #0086d5 60%, #57b5fc 60%, #54b3fa 100%);
   }
 }
-.bd-slide-21 {
-  background-image: url(../../assets/images/1dc5e2f9af9eac24e51b052f9a05e9ba_62488406controldeplagaseneljardnrociarjardinerodeljardndeflores.jpg), linear-gradient(180deg, #4aabf1 0%, #0086d5 60%, #57b5fc 60%, #54b3fa 100%);
-  background-image: url(../../assets/images/1dc5e2f9af9eac24e51b052f9a05e9ba_62488406controldeplagaseneljardnrociarjardinerodeljardndeflores.jpg), -webkit-linear-gradient(270deg, #4aabf1 0%, #0086d5 60%, #57b5fc 60%, #54b3fa 100%);
-  background-image: url(../../assets/images/1dc5e2f9af9eac24e51b052f9a05e9ba_62488406controldeplagaseneljardnrociarjardinerodeljardndeflores.jpg), -o-linear-gradient(270deg, #4aabf1 0%, #0086d5 60%, #57b5fc 60%, #54b3fa 100%);
-  background-image: url(../../assets/images/1dc5e2f9af9eac24e51b052f9a05e9ba_62488406controldeplagaseneljardnrociarjardinerodeljardndeflores.jpg), -ms-linear-gradient(270deg, #4aabf1 0%, #0086d5 60%, #57b5fc 60%, #54b3fa 100%);
-  background-image: url(../../assets/images/1dc5e2f9af9eac24e51b052f9a05e9ba_62488406controldeplagaseneljardnrociarjardinerodeljardndeflores.jpg), -moz-linear-gradient(270deg, #4aabf1 0%, #0086d5 60%, #57b5fc 60%, #54b3fa 100%);
-  background-attachment: scroll,scroll;
-  background-repeat: no-repeat, repeat;
-  background-position: center center,0% 0%;
+.bd-slide-1 {
+  background-color: #f5f5f5;
+  background-image: url(../../assets/images/cdd64d3d85f6f6f57dc29f5edc59d0aa_jardin1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
   background-size: cover;
+}
+.bd-slide-3 {
+  background-color: #f5f5f5;
+  background-image: url(../../assets/images/a145798a845f9606fdfd2bcfc0d74ff7_jardin2.jpg);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: center center;
 }
 #marker-end-L3N0eWxlLmNzcw.L2NvbnRyb2xzL2JkLXNsaWRlcjY {}
 #marker-start-L3N0eWxlLmNzcw.L2NvbnRyb2xzL2JkLXNwYWNlcjEw {}
@@ -14368,11 +14359,6 @@ h2.bd-textblock-80 {
   }
 }
 #marker-end-L3N0eWxlLmNzcw.L2NvbnRyb2xzL2JkLXRleHRibG9jazk {}
-#marker-start-L3N0eWxlLmNzcw.L2NvbnRyb2xzL2JkLXRleHRibG9jazk0 {}
-.bd-textblock-94 {
-  margin: 0px;
-}
-#marker-end-L3N0eWxlLmNzcw.L2NvbnRyb2xzL2JkLXRleHRibG9jazk0 {}
 #marker-start-L3N0eWxlLmNzcw.L2NvbnRyb2xzL2Jsb2cxQ29tbWVudEF2YXRhcg {}
 .bd-commentavatar-1 {
   display: inline-block;
