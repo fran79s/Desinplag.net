@@ -16631,6 +16631,10 @@ a.bd-itemremovelink-1:hover {
 @media (max-width: 767px) {
   .bd-hmenu-1 {
     /* since 3.1.0 */
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
   }
   .bd-hmenu-1 .navbar-collapse .bd-horizontalmenu-70 .bd-menu-39-popup {
     display: none;
@@ -16668,15 +16672,63 @@ a.bd-itemremovelink-1:hover {
   .bd-hmenu-1 .responsive-collapsed {
     display: none;
   }
+  .bd-hmenu-1 .navbar-collapse {
+    position: fixed !important;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: auto !important;
+    overflow-y: auto !important;
+  }
+  .bd-hmenu-1 .navbar-collapse.collapsing {
+    width: 0;
+    transition: width 700ms ease 0ms;
+    height: 100%;
+  }
+  .bd-hmenu-1 .bd-horizontalmenu-70 {
+    min-height: 100%;
+  }
+  .bd-hmenu-1 .bd-menu-overlay {
+    transition: opacity 700ms ease 0ms;
+    transition-property: opacity, margin-left;
+  }
+  .bd-hmenu-1 .bd-container-17,
+  .bd-hmenu-1 .bd-container-19,
+  .bd-hmenu-1 .bd-menu-close-icon {
+    display: block;
+  }
+  .bd-hmenu-1 .bd-menu-close-icon a {
+    color: #000000;
+  }
+  .bd-hmenu-1 .bd-menu-close-icon a:before {
+    content: '\234';
+  }
+  .bd-hmenu-1 .bd-menu-close-icon a:before {
+    visibility: inherit;
+  }
+  .bd-hmenu-1 .bd-menu-close-icon a:hover {
+    color: #e1ff00;
+  }
 }
 .bd-hmenu-1 .separated-item-43 {
   z-index: auto;
+}
+@media (max-width: 767px) {
+  .bd-horizontalmenu-70 {
+    width: 250px;
+  }
 }
 .admin-bar nav .navbar-collapse.width {
   margin-top: 32px;
 }
 .bd-horizontalmenu-70 {
   background-color: #00bd2f;
+}
+@media (max-width: 767px) {
+  .bd-horizontalmenu-70 {
+    background-color: #5cb85c;
+  }
 }
 @media (min-width: 768px) {
   html[dir="rtl"] [data-responsive-menu="true"] .bd-horizontalmenu-70 .bd-menuitem-36:last-child > a {
@@ -17280,7 +17332,7 @@ html[dir="ltr"] [data-responsive-menu="false"] .bd-horizontalmenu-70 .bd-menuite
 .bd-toplevel-item:not(.bd-megamenu) .bd-menu-63.nav-pills .bd-menuitem-36:not(.active) > a:focus:not(.active),
 .bd-toplevel-item:not(.bd-megamenu) .bd-menu-63.nav-pills .bd-menuitem-36:hover:not(.active) > a:not(.active) {
   text-decoration: none;
-  color: #000000;
+  color: #e1ff00;
 }
 .bd-toplevel-item:not(.bd-megamenu) .bd-menu-63.nav-pills .bd-menuitem-36 > a.active,
 .bd-toplevel-item:not(.bd-megamenu) .bd-menu-63.nav-pills .bd-menuitem-36.active > a {
@@ -17346,7 +17398,7 @@ html[dir="ltr"] [data-responsive-menu="false"] .bd-horizontalmenu-70 .bd-menuite
 .bd-toplevel-item:not(.bd-megamenu) .bd-menu-63.nav-pills .bd-menuitem-36:not(.active) > .bd-grid-item > a:focus:not(.active),
 .bd-toplevel-item:not(.bd-megamenu) .bd-menu-63.nav-pills .bd-menuitem-36:hover:not(.active) > .bd-grid-item > a:not(.active) {
   text-decoration: none;
-  color: #000000;
+  color: #e1ff00;
 }
 .bd-toplevel-item:not(.bd-megamenu) .bd-menu-63.nav-pills .bd-menuitem-36 > .bd-grid-item > a.active,
 .bd-toplevel-item:not(.bd-megamenu) .bd-menu-63.nav-pills .bd-menuitem-36.active > .bd-grid-item > a {
@@ -17412,7 +17464,7 @@ html[dir="ltr"] [data-responsive-menu="false"] .bd-horizontalmenu-70 .bd-menuite
 .bd-menu-63.nav-pills .bd-menuitem-36:not(.bd-mega-item):not(.active) > a:focus:not(.active),
 .bd-menu-63.nav-pills .bd-menuitem-36:not(.bd-mega-item):hover:not(.active) > a:not(.active) {
   text-decoration: none;
-  color: #000000;
+  color: #e1ff00;
 }
 .bd-menu-63.nav-pills .bd-menuitem-36:not(.bd-mega-item) > a.active,
 .bd-menu-63.nav-pills .bd-menuitem-36:not(.bd-mega-item).active > a {
@@ -17478,7 +17530,7 @@ html[dir="ltr"] [data-responsive-menu="false"] .bd-horizontalmenu-70 .bd-menuite
 .bd-menu-63.nav-pills .bd-menuitem-36:not(.bd-mega-item):not(.active) > .bd-grid-item > a:focus:not(.active),
 .bd-menu-63.nav-pills .bd-menuitem-36:not(.bd-mega-item):hover:not(.active) > .bd-grid-item > a:not(.active) {
   text-decoration: none;
-  color: #000000;
+  color: #e1ff00;
 }
 .bd-menu-63.nav-pills .bd-menuitem-36:not(.bd-mega-item) > .bd-grid-item > a.active,
 .bd-menu-63.nav-pills .bd-menuitem-36:not(.bd-mega-item).active > .bd-grid-item > a {
